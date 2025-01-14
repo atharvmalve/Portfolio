@@ -21,8 +21,8 @@ export default function Projects() {
         <h1 className='text-2xl md:text-5xl mt-32  mb:-mt-32  md:mb-24 font-poppins font-semibold text-[#d3d3d3] '>My Past Projects<span className='text-[#CFFF00]'>.</span></h1>
       <div className={styles.gallery}>
           {
-            projects.map( project => {
-              return <Project project={project}/>
+            projects.map( (project,idx) => {
+              return <Project key={idx} project={project}/>
             })
           }
       </div>

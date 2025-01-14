@@ -1,6 +1,7 @@
 'use client'
 import styles from './ProjectSection.module.css';
 import { motion } from 'framer-motion';
+import Image from 'next/image';
 import { useState } from 'react';
 
 const anim = {
