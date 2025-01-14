@@ -1,0 +1,46 @@
+.main{
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  align-items: start;
+  justify-content: start;
+  margin-bottom: 00vh;
+  color: hsl(0, 0%, 83%);
+  font-family: "Poppins",sans-serif;
+  padding-left:50px;
+  padding-right: 50px;
+  /* background-color: red; */
+}
+
+.body{
+  width: 70%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.body p{
+  font-size: 2.5vw;
+  margin: 0px;
+  margin-right: 1vw;
+  font-weight: 500;
+}
+
+.body span{
+  opacity: 0.2;
+}
+
+@media (max-width: 768px) { 
+  .main {
+    height: 160vw;
+    padding: 20px; 
+  }
+  .body{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .body p {
+    font-size: 5.5vw; 
+    margin-right: 2vw; 
+  }
+}
