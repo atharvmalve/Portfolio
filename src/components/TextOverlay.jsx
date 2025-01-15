@@ -57,7 +57,7 @@ export default function TextOverlay() {
     <>
       <main ref={container} className={styles.main}>
       <h1 className='text-2xl md:text-5xl md:mt-32 mt-5 md:mb-32 font-poppins font-semibold '>About Me<span className='text-[#CFFF00]'>.</span></h1>
-          <div className='md:flex md:justify-between'>
+          <div className='md:flex md:gap-10 md:justify-between'>
             <img src='/images/atharvimg.jpg' className='w-96 h-96 mt-2  rounded-xl mb-5'></img>
             <div ref={body} className={styles.body}>
               {

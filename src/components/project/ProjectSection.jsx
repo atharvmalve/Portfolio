@@ -18,10 +18,10 @@ export default function ProjectSection({project}) {
     return (
         <div onMouseEnter={() => {setIsActive(true)}} onMouseLeave={() => {setIsActive(false)}} className={styles.project}>
             <p>{title1}</p>
-            <p>{title2}</p>
             <motion.div variants={anim} animate={isActive ? "open" : "closed"} className={styles.imgContainer}>
                 <img src={`/medias/${src}`}></img>
             </motion.div>
+            <p>{title2}</p>
         </div>
     )
 }
