@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Content() {
   return (
-    <div className='bg-[#CFFF00] py-8 md:px-12 h-full w-full flex flex-col md:justify-between justify-end'>
+    <div className='bg-[#CFFF00] py-8 md:px-12 h-full w-full flex flex-col md:justify-end justify-end'>
         <Section1 />
         <Section2 />
     </div>
@@ -11,7 +11,7 @@ export default function Content() {
 
 const Section1 = () => {
     return (
-        <div className='px-12 md:px-0'>
+        <div className='px-12 md:px-4'>
             <Nav />
         </div>
     )
@@ -38,13 +38,13 @@ const Nav = () => {
             <div className='flex flex-col gap-2 font-poppins'>
                 <h3 className='mb-2 uppercase text-black font-semibold font-poppins'>Social</h3>
                 <a href='https://linkedin.com/in/atharvmalve' className='hover:underline'>Linkedin</a>
-                <a href='https://github.com/atharvmalve'>Github</a>
-                <a href='https://x.com/AtharvMalvee'>Twitter/X</a>
+                <a href='https://github.com/atharvmalve' className='hover:underline'>Github</a>
+                <a href='https://x.com/AtharvMalvee' className='hover:underline'>Twitter/X</a>
             </div>
             <div className='flex flex-col gap-2 font-poppins'>
-                <h3 className='mb-2 uppercase text-black font-semibold font-poppins'>Get in Touch</h3>
-                <a href='mailto: atharvmalve.dev@gmail.com'>Email</a>
-                <a href='tel:+91 8828821585'>WhatsApp</a>
+                <h3 className='mb-2 uppercase text-black font-semibold font-poppins' >Get in Touch</h3>
+                <a href='mailto: atharvmalve.dev@gmail.com' className='hover:underline'>Email</a>
+                <a href='tel:+91 8828821585' className='hover:underline'>WhatsApp</a>
             </div>
         </div>
     )

@@ -1,5 +1,5 @@
 .main {
-  height: 80vh;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: left;
@@ -7,6 +7,7 @@
   padding-left: 50px;
   padding-right: 50px;
   /* background-color: blue; */
+  margin-bottom: 10px;
 }
 
 .gallery{
