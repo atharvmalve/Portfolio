@@ -48,6 +48,8 @@ width: 0;
     padding-bottom: 4vw;
     justify-content: start;
     align-items: start;
+    display: flex;
+    flex-direction:column  
   }
   .project p{
     font-size: 8vw;
@@ -58,6 +60,7 @@ width: 0;
     border-bottom: 1.5px solid white;
   }
   .project img{
-    width: 30vw;
+    width: 100%;
+    margin: 5px;
   }
 }
